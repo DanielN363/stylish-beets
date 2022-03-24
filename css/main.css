@@ -10,10 +10,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
 img {
   width: 100%;
 }
@@ -61,7 +57,7 @@ main > p:nth-of-type(1) {
 }
 
 blockquote {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 blockquote p {
@@ -71,4 +67,12 @@ blockquote p {
 
 blockquote p strong {
   font-weight: normal;
+}
+
+.varieties {
+  list-style-type: lower-greek;
+}
+
+dt {
+  font-weight: bold;
 }
