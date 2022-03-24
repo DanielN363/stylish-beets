@@ -36,3 +36,39 @@ nav {
 nav ol {
   list-style-type: none;
 }
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+main > p:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+blockquote {
+  font-size: 0.8rem;
+}
+
+blockquote p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote p strong {
+  font-weight: normal;
+}
